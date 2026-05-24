@@ -12,7 +12,7 @@ When Pi runs inside a Docker container (or dev container, remote SSH, etc.), it 
 
 This extension auto-detects file paths in Pi's assistant responses, maps container paths to host paths, and displays them as clickable OSC 8 hyperlinks in a **Sources** widget above the editor.
 
-![Sources widget showing clickable file links](https://via.placeholder.com/600x80?text=Sources+widget+with+clickable+links)
+![Demo: Sources widget with clickable file links](demo.gif)
 
 ## Features
 
