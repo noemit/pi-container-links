@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/noemit/pi-container-links#readme",
   "pi": {
-    "extensions": ["./extensions"]
+    "extensions": ["./extensions"],
+    "image": "https://github.com/noemit/pi-container-links/raw/main/demo.gif"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",
