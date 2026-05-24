@@ -1,0 +1,34 @@
+{
+  "name": "pi-container-links",
+  "version": "1.0.0",
+  "description": "Clickable file links for Pi when running inside containers. Auto-extracts paths from assistant responses, maps container paths to host paths, and displays OSC 8 hyperlinks in a Sources widget.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "docker",
+    "container",
+    "devcontainer",
+    "osc8",
+    "hyperlinks",
+    "terminal",
+    "ghostty",
+    "clickable-links"
+  ],
+  "author": "Noemi Titarenco <noemi@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noemit/pi-container-links.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noemit/pi-container-links/issues"
+  },
+  "homepage": "https://github.com/noemit/pi-container-links#readme",
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
+  }
+}
